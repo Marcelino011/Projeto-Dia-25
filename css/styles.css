@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Quicksand", sans-serif;
+    text-decoration: none;
+}
+
+/*Bota Inscreva-se*/
+
+.btn-primary:hover {
+    background-color: red;
+    color:bisque
+}
+
+.btn-primary {
+    color: white;
+    margin-top: 30px;
+    margin-left: 92%;
+    background-color: blueviolet;
+    position: fixed;
+    width: 80px;
+    height: 30px;
+}
+
+.btn-primary:active {
+    background-color: chartreuse;
+}
+/*Botão Inscreva-se*/
+
+
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    color: white;
+    padding-top: 5px;
+    padding-left: 150px;
+    background-color: blue;
+    height: 25px;
+}
+
+a {
+    color: white;
+}
+
+/*Responsividade Para Dispositivos de 390px*/
+
+@media (max-width: 390px) {
+
+/*Botao Inscreva-se*/
+.btn-primary {
+    margin-left: 75%;
+}
+/*Botao Inscreva-se*/
+
+/*Nav Bar Principal*/
+.navbar-nav {
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding-top: 5px;
+    padding-left: 50px;
+    background-color: blue;
+    height: 25px;
+}
+
+a {
+    color: white;
+}
+/*Nav Bar Principal*/
+
+/*Titulo/Logo*/
+.logo {
+    padding-top: 15px;
+    padding-left: 5px;
+}
+
+/* Card Forza Horizon*/
+
+.card1 {
+    position: fixed;
+    background-color: rgb(190, 225, 255);
+    margin-top: 100px;
+    margin-left: 50px;
+    height: 330px;
+    border: 1px solid red;
+}
+
+.card1-img {
+    width: 285px;
+    height: 200px;
+}
+
+.card1-title {
+    color: rgb(55, 0, 255);
+    font-size: 15px;
+}
+.card1-text {
+    padding-top: 15px;
+}
+
+.btn-card1 {
+    position: fixed;
+    color: purple;
+    padding-top: 15px;
+    padding-left: 100px;
+}
+}
