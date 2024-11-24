@@ -161,4 +161,37 @@ a {
 }
 /*Logo Imagem*/
 
+/**/
+
+.card3 {
+    background-color: rgb( 190, 225, 255);
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 330px;
+    border: 1px solid rgb(255, 0, 64);
+    border-radius: 4px;
+}
+
+.card3-img {
+    width: 286px;
+    height: 190px;
+    border-radius: 4px;
+}
+
+.card3-title {
+    padding-left: 55px;
+    font-size: 15px;
+    color: blue;
+}
+
+.card3-text {
+    padding-left: 5px;
+    padding-top: 10px;
+}
+
+.link-card3 {
+    color: purple;
+    padding-top: 30px;
+    padding-left: 50px;
+}
 }
