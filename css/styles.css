@@ -227,7 +227,7 @@ a {
     position: relative;
     background-color: rgb(190, 225, 255);
     margin-top: 50px;
-    margin-left: 70px;
+    margin-left: 50px;
     height: 330px;
     border: 1px solid red;
     border-radius: 4px;
@@ -259,7 +259,7 @@ a {
 .card2 {
     background-color: rgb(190, 225, 255);
     margin-top: 50px;
-    margin-left: 70px;
+    margin-left: 50px;
     height: 330px;
     border: 1px solid rgb(255, 123, 0);
     border-radius: 4px;
@@ -305,7 +305,7 @@ a {
     width: 360px;
     height: 170px;
     margin-top: 50px;
-    margin-left: 30px;
+    margin-left: 15px;
     margin-right: 10;
 }
 /*Logo Imagem*/
@@ -314,7 +314,7 @@ a {
 .card3 {
     background-color: rgb( 190, 225, 255);
     margin-top: 50px;
-    margin-left: 70px;
+    margin-left: 50px;
     height: 330px;
     border: 1px solid rgb(255, 0, 64);
     border-radius: 4px;
@@ -348,7 +348,7 @@ a {
     width: 150px;
     position: absolute;
     margin-top: 600px;
-    margin-left: 70px;
+    margin-left: 50px;
 }
 }
 
