@@ -50,6 +50,7 @@ a {
 
 /*Botao Inscreva-se*/
 .btn-primary {
+    position: absolute;
     margin-left: 75%;
 }
 /*Botao Inscreva-se*/
@@ -62,6 +63,7 @@ a {
     padding-top: 5px;
     padding-left: 50px;
     background-color: blue;
+    border-radius: 5px;
     height: 25px;
 }
 
@@ -79,12 +81,13 @@ a {
 /* Card Forza Horizon*/
 
 .card1 {
-    position: fixed;
+    position: relative;
     background-color: rgb(190, 225, 255);
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 50px;
     height: 330px;
     border: 1px solid red;
+    border-radius: 4px;
 }
 
 .card1-img {
@@ -93,17 +96,69 @@ a {
 }
 
 .card1-title {
+    padding-left: 80px;
     color: rgb(55, 0, 255);
     font-size: 15px;
 }
 .card1-text {
-    padding-top: 15px;
+    padding-left: 3px;
+    padding-top: 10px;
 }
 
-.btn-card1 {
-    position: fixed;
+.link-card1 {
     color: purple;
     padding-top: 15px;
-    padding-left: 100px;
+    padding-left: 50px;
 }
+/* Card Forza Horizon*/
+
+/*Card Fortnite */
+.card2 {
+    background-color: rgb(190, 225, 255);
+    margin-top: 50px;
+    margin-left: 50px;
+    height: 330px;
+    border: 1px solid rgb(255, 123, 0);
+    border-radius: 4px;
+}
+
+.card2-img {
+    width: 285px;
+    height: 200px;
+}
+.card2-title {
+    padding-left: 110px;
+    color: rgb(55, 0, 255);
+    font-size: 15px;
+}
+.card2-text {
+    padding-left: 3px;
+    padding-top: 10px;
+}
+.link-card2 {
+    color: purple;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+/*Card Fortnite */
+
+/*Texto Principal*/
+.text {
+    border: 1px solid rgb(255, 0, 149);
+    border-radius: 4px;
+    font-size: bold;
+    font-size: 20px;
+    margin-top: 20px;
+    padding-left: 10px;
+}
+/*Texto Principal*/
+
+/*Logo Imagem*/
+.img-logo {
+    width: 390px;
+    height: 170px;
+    margin-top: 50px;
+}
+/*Logo Imagem*/
+
 }
