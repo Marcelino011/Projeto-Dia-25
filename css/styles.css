@@ -18,7 +18,7 @@
     margin-top: 30px;
     margin-left: 92%;
     background-color: blueviolet;
-    position: fixed;
+    position: absolute;
     width: 80px;
     height: 30px;
 }
@@ -28,7 +28,149 @@
 }
 /*Botão Inscreva-se*/
 
+/*Titulo/Logo*/
+.logo {
+    font-size: 20px;
+    padding-top: 50px;
+    padding-left: 40px;
+}
+/*Titulo/Logo*/
 
+/*Logo Extra*/
+.logo-extra {
+    margin-left: 500px;
+    margin-top: -400px;
+    position: absolute;
+    width: 300px;
+}
+/*Logo Extra*/
+
+/*Texto Principal*/
+.text {
+    font-size: 25px;
+    border: 1px solid purple;
+    border-radius: 8px;
+    margin-top: 50px;
+    margin-right: 800px;
+    margin-left: 15px;
+}
+/*Texto Principal*/
+
+/*Logo Imagem*/
+.img-logo {
+    margin-left: 10%;
+    margin-top: 50px;
+    width: 80%;
+    height: 500px;
+}
+/*Logo Imagem*/
+
+/*Forza Horizon*/
+.card1 {
+    background-color: rgb(163, 212, 255);
+    margin-top: 50px;
+    margin-left: 150px;
+    height: 320px;
+    border: 1px solid red;
+    border-radius: 8px;
+}
+
+.card1-img {
+    width: 286px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.card1-title {
+    font-size: 15px;
+    padding-left: 75px;
+    color: crimson;
+}
+
+.card1-text {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.link-card1 {
+    font-size: 15px;
+    color: purple;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+/*Forza Horizon*/
+
+/*Card Fortnite*/
+.card2 {
+    background-color: rgb(163, 212, 255);
+    margin-top: -320px;
+    margin-left: 570px;
+    height: 320px;
+    border: 1px solid rgb(255, 94, 0);
+    border-radius: 8px;
+}
+
+.card2-img {
+    width: 286px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.card2-title {
+    font-size: 15px;
+    padding-left: 110px;
+    color: darkblue;
+}
+
+.card2-text {
+    font-size: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.link-card2 {
+    color: purple;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+/*Card Fortnite*/
+
+/*Card Euro Truck*/
+.card3 {
+    background-color: rgb( 163, 212, 255);
+    margin-top: -320px;
+    margin-left: 1000px;
+    height: 320px;
+    border: 1px solid rgb(55, 0, 255);
+    border-radius: 8px;
+}
+
+.card3-img {
+    width: 286px;
+    height: 200px;
+    border-radius: 8px;
+}
+
+.card3-title {
+    font-size: 15px;
+    padding-left: 50px;
+}
+
+.card3-text {
+    font-size: 15px;
+    padding-left: 10px;
+    padding-top: 10px;
+}
+
+.link-card3 {
+    color: purple;
+    padding-top: 20px;
+    padding-left: 50px;
+}
+/*Card Euro Truck*/
+
+/*NavBar*/
 .navbar-nav {
     display: flex;
     justify-content: space-between;
@@ -39,6 +181,7 @@
     background-color: blue;
     height: 25px;
 }
+/*NavBar*/
 
 a {
     color: white;
@@ -77,14 +220,14 @@ a {
     padding-top: 15px;
     padding-left: 5px;
 }
+/*Titulo/Logo*/
 
-/* Card Forza Horizon*/
-
+/*Card Forza Horizon*/
 .card1 {
     position: relative;
     background-color: rgb(190, 225, 255);
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 70px;
     height: 330px;
     border: 1px solid red;
     border-radius: 4px;
@@ -110,13 +253,13 @@ a {
     padding-top: 15px;
     padding-left: 50px;
 }
-/* Card Forza Horizon*/
+/*Card Forza Horizon*/
 
 /*Card Fortnite */
 .card2 {
     background-color: rgb(190, 225, 255);
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 70px;
     height: 330px;
     border: 1px solid rgb(255, 123, 0);
     border-radius: 4px;
@@ -125,16 +268,20 @@ a {
 .card2-img {
     width: 285px;
     height: 200px;
+
 }
+
 .card2-title {
     padding-left: 110px;
     color: rgb(55, 0, 255);
     font-size: 15px;
 }
+
 .card2-text {
     padding-left: 3px;
     padding-top: 10px;
 }
+
 .link-card2 {
     color: purple;
     padding-top: 15px;
@@ -146,27 +293,28 @@ a {
 .text {
     border: 1px solid rgb(255, 0, 149);
     border-radius: 4px;
-    font-size: bold;
     font-size: 20px;
     margin-top: 20px;
-    padding-left: 10px;
+    padding-left: 0px;
+    margin-right: 20px;
 }
 /*Texto Principal*/
 
 /*Logo Imagem*/
 .img-logo {
-    width: 390px;
+    width: 360px;
     height: 170px;
     margin-top: 50px;
+    margin-left: 30px;
+    margin-right: 10;
 }
 /*Logo Imagem*/
 
-/**/
-
+/*Card Euro Truck*/
 .card3 {
     background-color: rgb( 190, 225, 255);
     margin-top: 50px;
-    margin-left: 50px;
+    margin-left: 70px;
     height: 330px;
     border: 1px solid rgb(255, 0, 64);
     border-radius: 4px;
@@ -194,4 +342,14 @@ a {
     padding-top: 30px;
     padding-left: 50px;
 }
+/*Card Euro Truck*/
+
+.logo-extra {
+    width: 150px;
+    position: absolute;
+    margin-top: 600px;
+    margin-left: 70px;
 }
+}
+
+/*Responsividade Para Dispositivos de 390px*/
