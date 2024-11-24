@@ -181,16 +181,37 @@
     background-color: blue;
     height: 25px;
 }
-
 a {
     color: white;
 }
 /*NavBar*/
 
-.git-hub {
-    width: 100px;
+/*Rodapé*/
+footer img {
+    width: 50px;
     
 }
+
+footer p {
+    color: black;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+    margin-top: 100px;
+}
+
+footer p {
+    margin-top: 2px;
+}
+/*Rodapé*/
 /*Responsividade Para Dispositivos de 390px*/
 
 @media (max-width: 390px) {
@@ -351,41 +372,30 @@ a {
 /*Logo Extra*/
 .logo-extra {
     width: 150px;
-    position: absolute;
-    margin-top: 600px;
+    margin-top: -50px;
     margin-left: 60px;
 }
 /*Logo Extra*/
 
-/*Git Hub*/
-.git-hub{
-    width: 45px;
-    margin-top: -22px;
-    margin-left: 68px;
+/*Rodapé*/
+footer img {
+    width: 40px;
 }
 
-.a-github {
-    position: absolute;
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    margin: 20px;
+    text-align: center;
+}
+
+footer p {
     color: black;
-    padding-left: 172px;
-    margin-top: -22px;
+    margin-top: 2px;
 }
-
-/*Instragram*/
-.insta {
-    width: 35px;
-    margin-top: 110px;
-    margin-left: 5px;
-}
-
-.a-insta {
-    position:absolute;
-    color: black;
-    padding-left: 5px;
-    margin-left: 35px;
-    margin-right: 200px;
-    margin-top: 123px;
-}
-/*Instragram*/
+/*Rodapé*/
 }
 /*Responsividade Para Dispositivos de 390px*/
